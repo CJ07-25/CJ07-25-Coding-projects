@@ -1,5 +1,5 @@
 Hi, I’m @CJ07-25
-I’m interested in Data Analysis
+I’m interested in Data Analytics
 I’m currently learning Fintech
 I’m looking to collaborate on anything
 <!---
