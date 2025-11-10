@@ -1,0 +1,24 @@
+{
+  "name": "hw2-express-mongo",
+  "version": "1.0.0",
+  "description": "HW2 API with CRUD and 8 analytic endpoints",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env app.js",
+    "seed": "node --env-file=.env scripts/seed.js",
+    "test": "NODE_ENV=test jest --runInBand"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1",
+    "mongodb-memory-server": "^10.1.4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://api.openaq.org/v3",
+  "dataset": {
+    "example_endpoints": [
+      "/parameters?limit=2000",
+      "/latest?city=Los%20Angeles&limit=1000",
+      "/locations?city=Delhi&limit=40",
+      "/sensors/101/measurements/daily?start=2020-09-21&end=2025-09-21&limit=1000"
+    ],
+    "sample_result": {
+      "meta": {
+        "name": "openaq-api",
+        "license": "CC BY 4.0",
+        "website": "https://openaq.org"
+      },
+      "results": [
+        {
+          "id": 1,
+          "name": "PM2.5",
+          "code": "pm25",
+          "units": "\u00b5g/m\u00b3"
+        },
+        {
+          "id": 2,
+          "name": "Nitrogen Dioxide",
+          "code": "no2",
+          "units": "\u00b5g/m\u00b3"
+        }
+      ]
+    }
+  }
+}
