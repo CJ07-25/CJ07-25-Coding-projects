@@ -57,3 +57,4 @@ npm test
 - The dataset must include fields: `city`, `population`, `growthRate` (in %), `density` (people/km²), `averageAge`.
 - If your HW1 had different fields, adjust `models/City.js` + the seed script accordingly.
 - If your HW1’s “eight questions” differ, re-map them inside `controllers/questionController.js`.
+- https://github.com/CJ07-25/CJ07-25-Coding-projects
